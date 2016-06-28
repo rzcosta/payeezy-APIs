@@ -1,0 +1,356 @@
+/* theme colors: #ee3e80, #efefef, rgb(98,80,77), rgb(123,154,73) */
+#telecheck  {
+	background-color: #efefef;
+	border-radius: 5px;
+	height: 650px;
+	padding: 1em;
+	margin-top: 1em;
+	text-align: left!important;
+	
+}
+
+#telecheck2  {
+	background-color: #efefef;
+	border-radius: 5px;
+	height: 1380px;
+	padding: 1em;
+	margin-top: 1em;
+	text-align: left!important;
+	
+}
+
+#legacyAPI  {
+	background-color: #efefef;
+	border-radius: 5px;
+	height: 1200px;
+	padding: 1em;
+	margin-top: 1em;
+	
+}
+
+
+#recurring {
+	background-color: #efefef;
+	border-radius: 5px;
+	height: 600px;
+	padding: 1em;
+	margin-top: 1em;
+	}
+
+
+
+#navStyle a {
+	text-decoration: none;
+	color: white;
+	font-family: Arial;
+	font-size: .75em;
+	display: block;
+	display: inline;
+	
+	
+}
+
+
+
+#PNB {
+	align-content: center!important;
+	
+}
+
+
+#equidHTML {
+	background-color: #efefef;
+	border-radius: 5px;
+	margin-top: 1em;
+	padding: .5em;
+	height: 500px;
+	
+	
+	
+}
+
+#equidHTML2 {
+	background-color: #efefef;
+	border-radius: 5px;
+	margin-top: 1em;
+	padding: .5em;
+	
+	
+	
+}
+
+.orderForm {
+	margin-top: 1em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	background-color: #efefef;
+			height: 450px; 
+			border-radius: 5px; 
+			
+	
+	
+}
+
+.orderForm1 {
+	margin-top: 1em;
+	margin-left: 0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	background-color: #efefef;
+			height: 600px; 
+			border-radius: 5px; 
+	font-family: Arial;
+			
+	
+	
+}
+
+body {
+		background-image: url("http://w3dvwb962.1dc.com:94/Ryan%20Costa/website2/images/background.png")!important;
+	}
+
+	
+		*{
+			font-family: Arial, Verdana, sans-serif;
+			color: #665544;
+			text-align: center;}
+		
+		#nav, #feature, .article, #footer {
+			background-color: #efefef;
+			margin-top: 20px;
+			padding: 10px 0px 5px 0px;
+			border-radius: 5px; }
+		
+		
+		#feature, .article {
+			height: 250px;}
+		
+		li {
+			display: inline;
+			padding: 50px;
+			text-decoration: none;
+			}
+		
+		#footer {
+			height: 175px!important; 
+			border-radius: 5px 5px 0px 0px!important; 
+		}
+		
+		
+		#upperlogo {
+			height: 50%;
+			width: 50%;
+			padding-top: 2.5em;
+			margin-top: 1.5em;
+			
+		}
+		
+		#nav, #staticmenu {
+			background-color: rgb(123,154,73)!important;
+		}
+		
+		#footer { 
+			background-color: rgb(98,80,77);}
+			
+		#staticmenu {
+			position: static;
+			border-radius: 0px 0px 5px 5px;
+			height: 35px; 						
+		}
+
+		#middleColumns{
+			color: #9a497b;
+		}
+		
+		
+		#middleColumnsP{
+			padding: 1em;
+			text-align: left; 
+		}
+		
+			
+			
+			
+		#banner {
+			height: 100%;
+			width: 99%; 
+			margin-left: 0px auto;
+			margin-right: 0px auto;
+			margin-bottom: 0px auto;
+			margin-top: 0px auto; 
+			border-radius: 5px;
+		}
+
+#searchbar {
+	width: 150px; 
+		margin-top: .75em; 
+		border-radius: 5px; 
+		border-style: none;
+		margin-left: 27em;
+		
+	}
+#searchbutton {
+	border-radius: 5px; 
+	border-style: none; 
+	
+}
+
+#banner2 {
+	border-radius: 5px;
+	margin-top: 1em;
+	height: 375px;
+}
+
+#fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  height: 50px;
+  background-color: rgb(123,154,73)!important;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.navibarcolor {
+	text-decoration: none!important;
+}
+
+#middleColumns {
+	overlow: scroll;
+}
+
+
+
+#socialButtons {
+	display: inline;
+	height: 45px;
+	width: auto;
+	float: left; 
+	padding: .3em;
+	margin-left: 1.5em;
+	
+	
+}
+
+
+
+
+#cpyright {
+	margin-top: 2em;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* theme colors: #ee3e80, #efefef, rgb(98,80,77), rgb(123,154,73) */
+
+
+

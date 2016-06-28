@@ -1,0 +1,198 @@
+
+<!-- 
+   ################################################################################################
+   # This code was written by Ryan Z. Costa in May 2016 as a practice and exercise in HTML & Css. #
+   # This is purely for educational purposes and the images used in this page are not mine.       #
+   # This is not for business purposes, only personal use and educational practice.               # 
+   ################################################################################################
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title> Dev Site</title>
+	<meta name="practice" content="Javascript">
+	<meta name="Ryan C" content="RZwebsolutions">
+	<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
+</head>
+
+<style>
+body {
+		background-image: url("images/bg.png")!important;
+	}
+</style>
+
+<body>
+
+
+<div class="container_12 clearfix">
+
+<!--static  navbars  start--> 
+
+	
+
+	
+	
+	
+	
+<!-- static navbar end --> 
+
+
+<!-- fixed navbar start --> 
+
+		<div id="header" class="grid_12">
+			<img src="images/logo.png" id="upperlogo"/>
+				<div id="nav">
+					<ul> 
+						<li id="navStyle"><a href="index.html">Home</a> </li>
+						<li id="navStyle"><a href="order.php">Connect 2.0</a> </li>
+						<li id="navStyle"><a href="https://rzwebsolutions.com/webstore/">Woocommerce</a> </li>
+						<li id="navStyle"><a href="equid.html">EQUID</a> </li>
+						<li id="navStyle"><a href="recurring.html">Recurring</a> </li>
+						<li id="navStyle"><a href="telecheck.html">Telecheck</a> </li>
+					</ul>
+				</div>
+		</div>
+		
+<!-- fixed navbar end -->
+
+<div  class="grid_12" id="telecheck">
+	<form action="telecheck2.php" method="post">
+		<table cellSpacing="0" cellPadding="0" width="660" align="left" border="0">
+			<tr><td>
+			<table cellSpacing="0" cellPadding="0" width="660" align="left" border="0">
+<tr>
+	<td><font face="verdana,arial,helvetica" size="5"><b>Telecheck</b></font></td>
+</tr>
+
+			</table></td></tr>
+			<tr><td>
+			<table cellSpacing="6" cellPadding="2em" width="660" align="left" border="0">
+				     
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Transaction Type</b></font></td>
+
+					<td colSpan="3">
+						<select name="ddlPOS_Transaction_Type" id="ddlPOS_Transaction_Type" style="width:452px;">
+							<option value="01">Pre-Auhorization</option>
+							<option value="05">Pre-Authorization Only</option>
+							<option value="02">Pre-Authorization Completion</option>
+							<option value="03">Forced Post</option>
+							<option selected="selected" value="00">Purchase</option>
+							<option value="11">Purchase Correction</option>
+							<option value="13">Void</option>
+							<option value="33">Tagged Void</option>
+							<option value="04">Refund</option>
+							<option value="34">Tagged Refund</option>
+							<option value="12">Refund Correction</option>
+							<option value="40">Recurring Seed</option>
+							<option value="32">Tagged Pre-Authorization Completion</option>
+							<option value="30">Tagged Purchase</option>
+							<option value="34">Tagged Refund</option>
+							<option value="60">Secure Storage</option>
+						</select></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Amount</b></font></td>
+					<td colSpan="3"><input name="tbPOS_DollarAmount" type="text" value="" maxlength="50" id="tbPOS_DollarAmount" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Check Number</b></font></td>
+					<td colSpan="3"><input name="tbPOS_CheckNumber" type="text" value="0101" maxlength="50" id="tbPOS_City" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Check Type</b></font></td>
+					<td colSpan="3"><input name="CheckType" type="text" value="P" maxlength="50" id="tbPOS_City" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Bank Account Number</b></font></td>
+					<td colSpan="3"><input name="tbPOS_BankAccountNumber" value="1234567890" type="text" maxlength="40" id="BankAccountNumber" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Bank Routing Number</b></font></td>
+					<td colSpan="3"><input name="tbPOS_BankRoutingNumber" value="123456780" type="text" maxlength="40" id="BankRoutingNumber" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Customer Name</b></font></td>
+					<td colSpan="3"><input name="tbPOS_CustomerName" type="text" value="Ryan Costa" maxlength="50" id="tbPOS_CustomerName" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Customer ID Type</b></font></td>
+					<td colSpan="3"><input name="tbPOS_CustomerIDType" type="text" value="CA" maxlength="50" id="tbPOS_CustomerIDType" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Customer ID</b></font></td>
+					<td colSpan="3"><input name="tbPOS_CustomerID" type="text" value="I7101874" maxlength="50" id="tbPOS_CustomerID" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Client Email</b></font></td>
+					<td colSpan="3"><input name="tbPOS_Client_Email" type="text" value="ryan.costa@firstdata.com" maxlength="50" id="tbPOS_Client_Email" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Address</b></font></td>
+					<td colSpan="3"><input name="tbPOS_Address1" type="text" value="12345 Test Way" maxlength="50" id="tbPOS_Address1" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>City</b></font></td>
+					<td colSpan="3"><input name="tbPOS_City" type="text" value="Testville" maxlength="50" id="tbPOS_City" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>State</b></font></td>
+					<td colSpan="3"><input name="tbPOS_State" type="text" value="CA" maxlength="50" id="tbPOS_State" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Zip</b></font></td>
+					<td colSpan="3"><input name="tbPOS_Zip" type="text" value="12345" maxlength="50" id="tbPOS_Zip" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Country Code</b></font></td>
+					<td colSpan="3"><input name="tbPOS_CountryCode="text" value="US" maxlength="50" id="tbPOS_CountryCode" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Phone Number</b></font></td>
+					<td colSpan="3"><input name="tbPOS_PhoneNumber="text" value="7175555555" maxlength="50" id="tbPOS_PhoneNumber" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b>Phone Type</b></font></td>
+					<td colSpan="3"><input name="tbPOS_PhoneType="text" value="H" maxlength="50" id="tbPOS_PhoneType" tabindex="5" style="width:452px;" /></td>
+				</tr>
+				<tr>
+					<td align="right"><font face="verdana,arial,helvetica" size="2"><b></b></font></td>
+					<td><input name="ddlPOS_ExactID" id="ddlPOS_ExactID" style="text" value="GB9684-53" type="hidden"/>
+					</td>
+				
+							<tr>
+						<td align="center" colSpan="4">&nbsp;<input type="submit" name="btnPOS_Submit" value="Process" id="btnPOS_Submit" style="width:335px;" /></td>
+					</tr>
+			</table></td></tr>
+		</table>
+	</form>
+
+</div>
+
+
+		
+<!-- footer begin --> 
+<div id="footer" class="grid_12">
+						<p id="cpyright" >
+						&copy; Copyright 2016</p> 
+										<img src="images/facebook.png" id="socialButtons" >
+										<img src="images/twitter.png" id="socialButtons" >
+										<img src="images/reddit.png" id="socialButtons"> 
+										<img src="images/pintrest.png" id="socialButtons">
+										
+										
+	
+	<!-- search bar start --> 
+			<form action="action_page.php">
+			<input type="search" id="searchbar">
+			<input type="submit" id="searchbutton">
+			</form>
+	</div>
+<!-- footer end --> 
+
+	</div><!-- .container_12 -->
+	</body>
+	</html>

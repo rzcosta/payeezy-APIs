@@ -1,0 +1,87 @@
+
+<html><head><title>PHP_FORM_MIN sample program</title></head><body>
+
+<br>
+<form name="form1" method="post" action="PHP_FORM_MIN.php">
+
+<br><br>
+<table>
+	<tr>
+	<p>order type</p>
+		<select size=1 name="ordertype" align="right">
+			<option name="ordertype" value="SALE">Sale</option>
+			<option name="ordertype" value="PREAUTH">Pre-Auth</option>
+			<option name="ordertype" value="POSTAUTH">POST-Auth</option>
+			<option name="ordertype" value="VOID">Void</option>
+			<option name="ordertype" value="CREDIT">Return</option>
+	</tr>
+	</br>
+	<tr>
+	<p>PERIODIC?</p>
+		<select size=1 name="recurring" align="right">
+			<option name="recurring" value="YES">Yes</option>
+			<option name="recurring" value="NO">No</option>
+			
+		</tr>
+	</br>
+	</br>
+	<tr>
+		<td align="right">amount</td>
+		<td><input name="chargetotal" value=""></td>
+	</tr>
+	<tr>
+		<td align="right">cardnumber</td>
+		<td><input name="cardnumber" value="4111111111111111"></td>
+	</tr>
+	<tr>
+		<td align="right">cardexpmonth</td>
+		<td><input name="cardexpmonth" value="01"></td>
+	</tr>
+	<tr>
+		<td align="right">cardexpyear</td>
+		<td><input name="cardexpyear" value="18"></td>
+	</tr>
+	<tr>
+		<td align="right"> debugging</td> 
+		<td><input type=checkbox name="debugging"></td>
+	</tr>
+	<tr>
+		<td align="right"> verbose output</td> 
+		<td><input type=checkbox name="verbose"></td>
+	</tr>
+	<tr>
+		<td> </td>
+		<td> <input type="submit"></td>
+	</tr>
+	<tr>
+		<td align="right">order id</td>
+		<td><input name="oid" value=""></td>
+	</tr>
+	<tr>
+		<td align="right">tdate</td>
+		<td><input name="tdate" value=""></td>
+	</tr>
+	<tr>
+		<td align="right">Installments</td>
+		<td><input name="installments" value=""></td>
+	</tr>
+	
+	<tr>
+		<td align="right">Perodicity</td>
+		<td><input name="periodicity" value="m1"></td>
+	</tr>
+	
+	<tr>
+		<td align="right">Threshold</td>
+		<td><input name="threshold" value="2"></td>
+	</tr>
+	
+	<tr>
+		<td align="right">Start Date</td>
+		<td><input name="startdate" value="20160525"></td>
+	</tr>
+	
+</table>
+</form>
+
+</font></body></html>
